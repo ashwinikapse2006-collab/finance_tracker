@@ -1,0 +1,36 @@
+{
+  "expenses": [
+    {
+      "id": 1,
+      "date": "2026-05-15",
+      "category": "Food",
+      "amount": 450.50,
+      "description": "Lunch with colleagues"
+    },
+    {
+      "id": 2,
+      "date": "2026-05-18",
+      "category": "Transport",
+      "amount": 150.00,
+      "description": "Monthly metro pass"
+    }
+  ],
+  "budget": {
+    "month": "05",
+    "year": 2026,
+    "total_limit": 5000.00,
+    "categories": {
+      "Food": 1500.00,
+      "Transport": 1000.00,
+      "Entertainment": 1000.00,
+      "Utilities": 1500.00
+    }
+  },
+  "backups": [
+    {
+      "backup_id": "bkp_001",
+      "timestamp": "2026-05-20T14:30:00Z",
+      "file_path": "backup_dir/finance_backup_20260520.json"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+# Personal Finance Tracker Dependencies
+
+# No external libraries required for the current version
+# All modules used are built-in:
+# - json
+# - os
+# - datetime
+
+# If you later extend the project, you may add:
+# pandas
+# matplotlib
+# pytest
